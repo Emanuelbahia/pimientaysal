@@ -10,6 +10,6 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", mainRutas);
 
-app.listen(3000 || process.env.PORT, function () {
+app.listen(3000, function () {
   console.log("funciona");
 });
